@@ -1,0 +1,31 @@
+# Node / Vite
+node_modules/
+dist/
+.vite/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.venv/
+venv/
+env/
+ENV/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local datasets and trained models
+/backend/data/
+/backend/models/
+
+# Local environment and logs
+.env
+.env.*
+!.env.example
+*.log
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+Desktop.ini
